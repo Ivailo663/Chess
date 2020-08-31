@@ -1,0 +1,19 @@
+.app{
+  display:flex;
+}
+
+.sidebar-container{
+  width:25vw;
+  border:1px solid black;
+}
+.sidebar-container .opponents-holder{
+  padding: 1rem 0;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  border-bottom:1px dotted black;
+  cursor: pointer;
+}
+.opponents-holder p {
+  margin:0.5rem;
+}
